@@ -1,3 +1,5 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css);
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,51 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App .form-control {
+  margin: 0 8px;
+  width: 100px;
+}
+
+.App .btn {
+  margin: 0 8px;
+}
+
+.App .text-secondary {
+  color: #aaa!important;
+}
+
+.App-body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-rate .form-control {
+  display: inline-block;
+}
+
+.App-override {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-convert {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-override-input {
+  position: relative;
+}
+
+.App-override-input p {
+  font-size: 8pt;
+  margin: 2px 0 0 12px;
+  position: absolute;
+  top: 100%;
 }
